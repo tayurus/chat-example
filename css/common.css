@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background: #373351;
+}
+
+.chat{
+    max-width: 1170px;
+    display: flex;
+    margin: 0px auto;
+    height: calc(100vh - 180px);
+}
+
+@media (max-width:767px),(max-device-width:767px) {
+    .chat{
+        height: calc(100vh - 235px);
+    }
+}

@@ -1,0 +1,27 @@
+.header{
+    background: #373351;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.header__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header__control{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header__control:hover{
+    color: tomato;
+}
