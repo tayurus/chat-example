@@ -1,4 +1,4 @@
-.user-preview{
+.user-preview {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
@@ -8,8 +8,7 @@
     position: relative;
 }
 
-
-.user-preview__img{
+.user-preview__img {
     min-width: 73px;
     max-width: 73px;
     min-height: 74px;
@@ -19,11 +18,11 @@
     margin-right: 15px;
 }
 
-.user-preview__img_online{
+.user-preview__img_online {
     position: relative;
 }
 
-.user-preview__img_online::after{
+.user-preview__img_online::after {
     position: absolute;
     bottom: -5px;
     right: -8px;
@@ -34,20 +33,18 @@
     background: #2ecb70 url('img/statusOnline.png') no-repeat center / 12px 9px;
 }
 
-.user-preview__info{
+.user-preview__info {
     width: 100%;
 }
 
-.user-preview__name{
+.user-preview__name {
     color: #ffffff;
-    font-family: "Roboto";
     font-size: 15px;
     margin-bottom: 14px;
 }
 
-.user-preview__text{
+.user-preview__text {
     color: #b59ec6;
-    font-family: "Roboto";
     font-size: 15px;
     font-weight: 300;
     text-overflow: ellipsis;
@@ -55,21 +52,18 @@
     white-space: nowrap;
 }
 
-
-@media (max-width:910px),(max-device-width:910px) {
+@media (max-width:910px), (max-device-width:910px) {
     .user-preview {
         padding: 10px 0px;
         margin: 0px 10px;
     }
-
 }
 
-@media (max-width:540px),(max-device-width:540px) {
-    .user-preview{
+@media (max-width:540px), (max-device-width:540px) {
+    .user-preview {
         margin: 0px 5px;
         padding: 0px;
     }
-
     .user-preview__img {
         min-width: 40px;
         max-width: 40px;
@@ -78,11 +72,9 @@
         border: 2px solid #6f6198;
         border-radius: 100%;
     }
-
-    .user-preview__img_online::after{
+    .user-preview__img_online::after {
         width: 15px;
         height: 16px;
         background: #2ecb70 url('img/statusOnline.png') no-repeat center / 9px 7px;
     }
-
 }

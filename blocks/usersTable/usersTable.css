@@ -1,4 +1,4 @@
-.users-table{
+.users-table {
     max-width: 200px;
     flex-grow: 1;
     overflow: auto;
@@ -6,84 +6,43 @@
     border-right: 1px solid #ccc;
 }
 
-
 /* width */
+
 .users-table::-webkit-scrollbar {
     width: 3px;
 }
 
 /* Track */
+
 .users-table::-webkit-scrollbar-track {
     background: transparent;
 }
 
 /* Handle */
+
 .users-table::-webkit-scrollbar-thumb {
     background-color: #2b80ff;
 }
 
 /* Handle on hover */
+
 .users-table::-webkit-scrollbar-thumb:hover {
     background-color: #2b50ff;
 }
 
-.users-table .user-preview:not(:last-child){
+.users-table .user-preview:not(:last-child) {
     border-bottom: 2px solid #3e3f62;
 }
 
-.user-table__tabs{
-    width: 100%;
-    display: flex;
-}
-
-.user-table__tab{
-    width: 45%;
-    margin: 10px;
-    background-color: tomato;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.user-table__tab_active{
-    background-color: blue;
-}
-
-@media (max-width:910px),(max-device-width:910px) {
-    .users-table{
+@media (max-width:910px), (max-device-width:910px) {
+    .users-table {
         max-width: 95px;
-        overflow-x:hidden;
-    }
-
-    .user-table__tabs{
-        flex-direction: column;
-        border-bottom: 1px solid #ccc;
-    }
-
-    .user-table__tab{
-        width: 100%;
-        margin: 0px;
-
-    }
-
-    .user-table__tab_my-users{
-        font-size: 0px;
-        margin: 10px 0px;
-        background: url('img/contacts.png') no-repeat center / contain;
-    }
-    .user-table__tab_all-users{
-        font-size: 0px;
-        margin: 10px 0px;
-        background: url('img/allUsers.png') no-repeat center / contain;
+        overflow-x: hidden;
     }
 }
 
-
-
-@media (max-width:540px),(max-device-width:540px) {
-    .users-table{
+@media (max-width:540px), (max-device-width:540px) {
+    .users-table {
         min-width: 56px;
         max-width: 56px;
     }

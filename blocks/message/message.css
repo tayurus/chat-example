@@ -6,7 +6,6 @@
 .message__text{
     position: relative;
     color: #ffffff;
-    font-family: "Roboto";
     font-size: 18px;
     font-weight: 300;
     line-height: 25px;
@@ -16,7 +15,6 @@
 
 .message__date{
     color: #9584c4;
-    font-family: "Open Sans";
     font-size: 14px;
     text-transform: uppercase;
     padding-left: 15px;
